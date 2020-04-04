@@ -13,7 +13,8 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello Github!");
+
         int res = mult3(3, 3, 5);
         System.out.println(res);
 
