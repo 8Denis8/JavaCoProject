@@ -3,8 +3,8 @@ package com.javaCoPro;
 public class Lesson08 {
     public static void main(String[] args) {
         System.out.println(sum(1, 2));
-        int xx = sum(1, 3, 2);
-        int zz = sum(1, 1, 2, 2);
+        // int xx = sum(1, 3, 2);
+        // int zz = sum(1, 1, 2, 2);
         String str = sum("abc", "cde", "ddd");
         System.out.println(str);
         System.out.println(sum("ddd", "eee", 555));
