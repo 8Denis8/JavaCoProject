@@ -15,8 +15,8 @@ public class App {
         // dog02.bark();
         // dog03.bark();
 
-        // House house01 = new House(3000, 5, 4.5, "home");
-        // house01.printInfo();
+        House house01 = new House(3000, 5, 4.5, "home", new int[] { 1, 3, 3 });
+        house01.printInfo();
 
         Boat boat = new Boat("John");
         boat.printName();
