@@ -2,8 +2,8 @@ package com.javaCoPro.leson09;
 
 public class App {
     public static void main(String[] args) {
-        String xx = new String();
-        int[] arr = new int[10];
+        // String xx = new String();
+        // int[] arr = new int[10];
 
         Car car01 = new Car();
         Car car02 = new Car();
