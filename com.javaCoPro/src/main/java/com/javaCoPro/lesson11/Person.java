@@ -3,6 +3,7 @@ package com.javaCoPro.lesson11;
 public class Person {
     private String name;
     private String lastName;
+    private Addres addres;
 
     public Person() {
     }
