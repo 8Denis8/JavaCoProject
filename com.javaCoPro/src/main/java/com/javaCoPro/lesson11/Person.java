@@ -8,9 +8,10 @@ public class Person {
     public Person() {
     }
 
-    public Person(String name, String lastName) {
+    public Person(String name, String lastName, Addres addres) {
         this.name = name;
         this.lastName = lastName;
+        this.addres = addres;
     }
 
     public String getName() {
@@ -29,6 +30,14 @@ public class Person {
         this.lastName = lastName;
     }
 
+    public Addres getAddres() {
+        return this.addres;
+    }
+
+    public void setAddres(Addres addres) {
+        this.addres = addres;
+    }
+
     public Person name(String name) {
         this.name = name;
         return this;
@@ -36,6 +45,11 @@ public class Person {
 
     public Person lastName(String lastName) {
         this.lastName = lastName;
+        return this;
+    }
+
+    public Person addres(Addres addres) {
+        this.addres = addres;
         return this;
     }
 
@@ -48,20 +62,18 @@ public class Person {
     // }
     // Person person = (Person) o;
     // return Objects.equals(name, person.name) && Objects.equals(lastName,
-    // person.lastName);
+    // person.lastName) && Objects.equals(addres, person.addres);
     // }
 
     // @Override
     // public int hashCode() {
-    // return Objects.hash(name, lastName);
+    // return Objects.hash(name, lastName, addres);
     // }
 
-    // @Override
-    // public String toString() {
-    // return "{" +
-    // " name='" + getName() + "'" +
-    // ", lastName='" + getLastName() + "'" +
-    // "}";
-    // }
+    @Override
+    public String toString() {
+        return "{" + " name='" + getName() + "'" + ", lastName='" + getLastName() + "'" + ", addres='" + getAddres()
+                + "'" + "}";
+    }
 
 }

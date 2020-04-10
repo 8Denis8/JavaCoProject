@@ -86,10 +86,10 @@ public class Addres {
     // return Objects.hash(street, citi, zipCode, state);
     // }
 
-    @Override
-    public String toString() {
-        return "{" + " street='" + getStreet() + "'" + ", citi='" + getCiti() + "'" + ", zipCode='" + getZipCode() + "'"
-                + ", state='" + getState() + "'" + "}";
+    public void printAddress() {
+        String address = "Address{" + " street:'" + getStreet() + "'" + ", citi:'" + getCiti() + "'" + ", zipCode:'"
+                + getZipCode() + "'" + ", state:'" + getState() + "'" + "}";
+        System.out.println(address);
     }
 
 }
