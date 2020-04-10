@@ -9,7 +9,7 @@ public class Motherboard {
         this.chipset = chipset;
     }
 
-    public String toString() {
+    public void printInfo() {
         System.out.println("Motherboard{" + " brand='" + brand + "'" + ", chipset='" + chipset + "'" + "}");
     }
 

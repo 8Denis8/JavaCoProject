@@ -10,7 +10,8 @@ public class SysBlock {
     }
 
     public void printInfo() {
-        System.out.println("{" + " proc='" + proc + "'" + ", mamka='" + mamka + "'" + "}");
+        proc.printInfo();
+        mamka.printInfo();
     }
 
 }
