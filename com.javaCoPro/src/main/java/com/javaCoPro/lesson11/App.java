@@ -2,6 +2,12 @@ package com.javaCoPro.lesson11;
 
 public class App {
     public static void main(String[] args) {
+
+        Name andrew = new Name("Andrew", "Dowson");
+        Person ad = new Person(andrew, homeAddress);
+        String ln = ad.getName().getLastName();
+        System.out.println(ln);
+
         // Addres homeAddres = new Addres("158 Broadway", "New York", 10016, "NY");
         // Person person01 = new Person("Andrew", "Dowson", homeAddres);
 
