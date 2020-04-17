@@ -6,4 +6,10 @@ public class Plane {
     public String getInfo() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return "{" + " name='" + getInfo() + "'" + "}";
+    }
+
 }
