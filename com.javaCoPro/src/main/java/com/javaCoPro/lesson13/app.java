@@ -1,6 +1,6 @@
 package com.javaCoPro.lesson13;
 
-public class app {
+public class App {
     public static void main(String[] args) {
         Person ivan = new Person(20);
         ivan.breathe();
