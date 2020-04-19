@@ -1,5 +1,5 @@
 package com.javaCoPro.lesson12;
 
-public class Village {
+public class Village extends City {
 
 }
